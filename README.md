@@ -139,7 +139,7 @@ This is mainly used for debugging
 will dictate what error analysis is used in the comparison.
 
 * -effort uses an "amount" between 0 and 100 to determine how much additional effort 
-to apply during the encoding.
+to apply during the encoding.(**此值对执行效率有影响,为0时执行效率最高,100时执行效率最低,默认此值为40, 但是并未发现对执行结果有什么影响,这是一个疑问???**)
 
 * -errormetric selects the fitting algorithm used by the encoder.  "rgba" calculates 
 RMS error using RGB components that are weighted by A.  "rgbx" calculates RMS error 
